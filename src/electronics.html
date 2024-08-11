@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            height: 400px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            transition: box-shadow 0.3s ease-in-out;
+            overflow: hidden; 
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto; 
+        }
+
+        .container {
+            padding: 2px 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="../public/images/elec1.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Boult x Mustang Torq Newly Launched Truly Wireless in Ear Earbuds</h4>
+        </b><br>PRICE - &#8377;1799
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="../public/images/elec2.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Canon PIXMA E477 All in One (Print, Scan, Copy) WiFi Ink Efficient Colour Printer for Home/Student</h4>
+        </b><br>PRICE - &#8377;5899
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="../public/images/elec3.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Fire-Boltt Asphalt Newly Launched Racing Edition Smart Watch 1.91” Full Touch Screen </h4>
+        </b><br>PRICE - &#8377;2099
+        </div>
+    </div>
+</body>
+</html>

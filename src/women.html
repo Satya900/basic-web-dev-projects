@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            height: 400px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            transition: box-shadow 0.3s ease-in-out;
+            overflow: hidden; 
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto; 
+        }
+
+        .container {
+            padding: 2px 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="../public/images/wo1.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Lux Inferno Women Ladies Thermal Set
+        </b><br>PRICE - &#8377;1063</h4>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="../public/images/wo2.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>ANNI DESIGNER Women's Cotton Blend Straight Printed Kurta with Pant & Dupatta
+        </b><br>PRICE - &#8377;599</h4>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="../public/images/wo33.jpg" alt="Avatar">
+        <div class="container">
+          <h4><b>Lux Inferno Ladies 3/4 Thermal Top and Lower Set
+        </b><br>PRICE - &#8377;842</h4>
+        </div>
+    </div>
+</body>
+</html>
